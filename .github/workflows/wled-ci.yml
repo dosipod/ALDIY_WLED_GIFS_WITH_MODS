@@ -63,6 +63,7 @@ jobs:
           build_output/release/*.bin
           build_output/release/*_ESP02*.bin.gz
           build_output/*.bin
+          build_output/firmware/*.bin
   release:
     name: Create Release
     runs-on: ubuntu-latest
