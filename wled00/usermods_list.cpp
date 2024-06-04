@@ -425,4 +425,8 @@ void registerUsermods()
   #ifdef USERMOD_TETRISAI
   usermods.add(new TetrisAIUsermod());
   #endif
+
+  #ifdef USERMOD_TTGO_TDISPLAY_OUTPUT
+  usermods.add(new TTGOTDisplayOutputUsermod());
+  #endif
 }
